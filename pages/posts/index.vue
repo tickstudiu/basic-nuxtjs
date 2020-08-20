@@ -1,17 +1,19 @@
 <template>
     <div>
         <Header />
-        <h2>Hello Post Page</h2>
+        <PostContent />
     </div>
 </template>
 
 <script>
 import Header from '@/components/posts/Header';
+import PostContent from '@/components/posts/PostContent';
 
 export default {
     layout: "coreLayout",
     components: {
         Header,
+        PostContent
     }
 }
 </script>
