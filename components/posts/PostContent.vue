@@ -1,17 +1,31 @@
 <template>
-  <div>
-    <b-card
-      title="Card Title"
-      img-src="https://picsum.photos/600/300/?image=25"
-      img-alt="Image"
-      img-top
-      tag="article"
-      style="max-width: 20rem;"
-      class="mb-2"
-    >
-      <b-card-text>Some quick example text to build on the card title and make up the bulk of the card's content.</b-card-text>
+  <b-col md="3">
+      <b-card
+        :title="title"
+        img-src="https://picsum.photos/600/300/?image=25"
+        img-alt="Image"
+        img-top
+        tag="article"
+        class="mb-2 text-center"
+      >
+        <b-card-text class="text-left">{{content}}</b-card-text>
 
-      <b-button href="#" variant="primary">Go somewhere</b-button>
-    </b-card>
-  </div>
+        <b-button href="#" variant="primary" block>View</b-button>
+      </b-card>
+    </b-col>
 </template>
+
+<script>
+export default {
+  props: {
+    title: {
+      type: String,
+      required: true,
+    },
+    content: {
+      type: String,
+      required: false,
+    },
+  },
+}
+</script>
