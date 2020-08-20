@@ -6,22 +6,26 @@
         Basic
       </h1>
       <div class="links">
-        <a
-          href="https://nuxtjs.org/"
+        <nuxt-link
+          to="https://nuxtjs.org/"
           target="_blank"
           rel="noopener noreferrer"
           class="button--green"
         >
           Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
+        </nuxt-link>
+        <nuxt-link
+          to="https://github.com/nuxt/nuxt.js"
           target="_blank"
           rel="noopener noreferrer"
           class="button--grey"
         >
           GitHub
-        </a>
+        </nuxt-link>
+
+        <nuxt-link to="/users" class="button--grey">Users</nuxt-link>
+        <nuxt-link to="/admin" class="button--grey">Admin</nuxt-link>
+        <nuxt-link to="/posts" class="button--grey">Posts</nuxt-link>
       </div>
     </div>
   </div>
