@@ -1,8 +1,18 @@
 <template>
-    <div>
+    <b-container fluid class="px-0">
         <Header />
-        <PostContent />
-    </div>
+        <b-row>
+            <b-col>
+                <PostContent />
+            </b-col>
+            <b-col>
+                <PostContent />
+            </b-col>
+            <b-col>
+                <PostContent />
+            </b-col>
+        </b-row>
+    </b-container>
 </template>
 
 <script>
