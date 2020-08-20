@@ -19,12 +19,12 @@ export default {
       items: [
         {
           captions: 'First slide',
-          image: 'https://picsum.photos/1024/480/?image=52',
+          image: require('@/assets/p1.jpg'),
           text: 'Nulla vitae elit libero, a pharetra augue mollis interdum.',
         },
         {
           captions: 'Second slide',
-          image: 'https://picsum.photos/1024/480/?image=58',
+          image: require('@/assets/p2.jpg'),
           text: 'Nulla vitae elit libero, a pharetra augue mollis interdum.',
         },
       ],
