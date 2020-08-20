@@ -1,3 +1,3 @@
 <template>
-    <h2>Hello : </h2>
+    <h2>Welcome : {{$route.params.name}}</h2>
 </template>
