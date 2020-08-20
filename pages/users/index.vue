@@ -1,3 +1,16 @@
 <template>
-    <h2>Hello users page</h2>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Wanchalerm</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 </template>
